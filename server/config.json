@@ -1,0 +1,21 @@
+{
+    "charset": "utf-8",
+    "port": 80,
+    "session": 1,
+    "session_key": "DCSESSIONID",
+    "session_key_secret": "Decheng@Xst_com$",
+    "session_expire": 36000000,
+
+    "vhost": [
+        {
+            "server_name": ["localhost"],
+            "root": "../webapp/test1",
+            "index": "index"
+        },
+        {
+            "server_name": ["dev1.xst.com", "dev2.xst.com"],
+            "root": "../webapp/test2",
+            "index": "default"
+        }
+    ]
+}
